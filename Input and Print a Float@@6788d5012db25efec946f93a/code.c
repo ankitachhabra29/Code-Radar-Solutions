@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-float main() {
+int main() {
     float i;
 
     printf("enter a number:");

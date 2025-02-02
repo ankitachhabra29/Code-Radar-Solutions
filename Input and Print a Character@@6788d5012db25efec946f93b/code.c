@@ -3,9 +3,9 @@
 
 int main() {
     char a;
-    printf("enter a character:");
+    printf("");
 
     scanf("%c",&a);
-    printf("You entered:",a);
+    printf("You entered: ",a);
     return 0;
 }

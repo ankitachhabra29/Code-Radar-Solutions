@@ -3,8 +3,8 @@
 
 
 int main() {
-    int x;
-    scanf("%d",&x);
+    float x;
+    scanf("%f",&x);
     
     if(x%2==0 && x==2){
         printf("Even");

@@ -3,10 +3,10 @@
 
 
 int main() {
-    int sellingprice;
-    int costprice;
-    scanf("%d",&sellingprice);
-    scanf("%d",&costprice);
+    float sellingprice,costprice;
+
+    scanf("%f",&sellingprice);
+    scanf("%f",&costprice);
 
     if(sellingprice>costprice){
         printf("Profit");

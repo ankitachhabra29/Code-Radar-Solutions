@@ -10,8 +10,13 @@ int main() {
         printf("Even");
     }
 
-    else {
+    else if (x%2!=0){
         printf("Odd");
     }
+    else{
+        printf("Zero")
+    }
+
+
     return 0;
 }

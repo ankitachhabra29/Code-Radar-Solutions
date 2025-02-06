@@ -9,6 +9,10 @@ int main() {
      else if(y>x){
         printf("%d",y);
     }
+    else if (x==y){
+        printf("%d",x);
+
+    }
    
     
     return 0;

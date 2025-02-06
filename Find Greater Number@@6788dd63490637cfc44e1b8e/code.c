@@ -7,7 +7,7 @@ int main() {
         printf("%d",x);
     }
     if(y>x){
-        printf("%d"y);
+        printf("%d",y);
     }
     
     return 0;

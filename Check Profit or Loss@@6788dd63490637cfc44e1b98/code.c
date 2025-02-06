@@ -3,15 +3,15 @@
 
 
 int main() {
-    int selling_price;
-    int cost_price;
-    scanf("%d",&selling_price);
-    scanf("%d",&cost_price);
+    int sellingprice;
+    int costprice;
+    scanf("%d",&sellingprice);
+    scanf("%d",&costprice);
 
-    if(selling_price>cost_price){
+    if(sellingprice>costprice){
         printf("Profit");
     }
-    else if( cost_price>selling_price){
+    else if( costprice>sellingprice){
         printf("Loss");
     }
 

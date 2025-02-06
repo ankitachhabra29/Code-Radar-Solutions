@@ -16,7 +16,7 @@ int main() {
         printf("%d",c);
     }
 
-    else (a==b==c){
+    else if (a==b==c){
         printf("%d%d%d",a,b,c);
     }
 

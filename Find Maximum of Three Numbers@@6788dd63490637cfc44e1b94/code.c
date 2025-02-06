@@ -6,10 +6,10 @@ int main() {
     scanf("%d%d%d",&a,&b,&c);
     
     if(a>b && a>c){
-        printf("%d",a);
+        printf("%d ",a);
     }
     else if (b>a && b>c){
-        printf("%d",b);
+        printf("%d ",b);
     }
 
     else if (c>a && c>b){
@@ -17,7 +17,7 @@ int main() {
     }
 
     else if ((a==b && a==c && b==c)){
-        printf("%d%d%d",a,b,c);
+        printf("%d %d %d",a,b,c);
     }
 
     

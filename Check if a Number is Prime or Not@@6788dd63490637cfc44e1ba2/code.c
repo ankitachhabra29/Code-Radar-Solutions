@@ -10,7 +10,7 @@ if(x<=1){
 }
 for(i=2;i<=x/2;i++){
     if(x%i==0){
-        printf("Prime")
+        printf("Prime");
     }
 }
 else{

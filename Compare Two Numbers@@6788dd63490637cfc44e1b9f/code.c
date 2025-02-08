@@ -7,12 +7,11 @@ int main() {
     if(a>b){
         printf("First");
     }
-    else if(a==b){
-        printf("Equal");
-    }
-
-    else if(a<b){
+     else if(a<b){
         printf("Second");
+     }
+    else{
+        printf("Equal");
     }
     return 0;
 }

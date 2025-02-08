@@ -7,11 +7,14 @@ int main() {
     int num2;
     scanf("%d",&num2);
 
-    if(num1>num2 && num1==num2){
+    if(num1>num2){
         printf("Yes");
     }
-    else{
+    else if(num1<num2){
         printf("No");
+    }
+    else if(num1==num2){
+        printf("Yes");
     }
     
     return 0;

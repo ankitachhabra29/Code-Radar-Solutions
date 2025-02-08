@@ -7,6 +7,9 @@ int main() {
     if(x>1 && x%x==1 && x%1==1){
         printf("Prime");
     }
+    else if(x==2){
+        printf("Prime");
+    }
     else{
         printf("Not Prime");
     }

@@ -6,7 +6,7 @@ int main() {
     int day;
     scanf("%d",&day);
 
-    switch(day);
+    switch(day){}
 
     case 1:
     printf("Monday");
@@ -28,6 +28,7 @@ int main() {
 
     case 7:
     printf("Sunday");
+}
     
     
     return 0;

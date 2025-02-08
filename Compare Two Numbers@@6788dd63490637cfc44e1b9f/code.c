@@ -4,10 +4,10 @@ int main() {
     int a,b;
     scanf("%d%d,&a,&b");
 
-    if(num1>num2){
+    if(a>b){
         printf("First");
     }
-    else if(num1==num2){
+    else if(a==b){
         printf("Equal");
     }
     return 0;

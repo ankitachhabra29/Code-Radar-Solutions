@@ -2,15 +2,15 @@
 
 
 int main() {
-    int num;
-    scanf("%num",&num);
+    float num;
+    scanf("%f",&num);
     if(num>0){
         printf("Positive");
     }
     else if(num<0){
         printf("Negative");
     }
-    else if(num==0){
+    else {
         printf("Zero");
     }
     return 0;

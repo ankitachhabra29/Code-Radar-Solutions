@@ -2,8 +2,8 @@
 
 
 int main() {
-    float num;
-    scanf("%f",&num);
+    int num;
+    scanf("%d",&num);
     if(num>0){
         printf("Positive");
     }

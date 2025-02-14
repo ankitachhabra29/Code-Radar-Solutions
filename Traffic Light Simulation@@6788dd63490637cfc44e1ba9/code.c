@@ -14,7 +14,9 @@ int main() {
     else if(signal=='Y'){
         printf("Slow Down");
     }
-
+   else {
+    printf("Invalid input");
+   }
     
 
 

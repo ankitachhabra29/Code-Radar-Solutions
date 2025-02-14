@@ -6,19 +6,19 @@ int main() {
     scanf("%c",&grades);
 
     if(grade=='A'){
-        ptintf("Excellent");
+        printf("Excellent");
     }
     if(grade=='B'){
-        ptintf("Good");
+        printf("Good");
     }
     if(grade=='C'){
-        ptintf("Average");
+        printf("Average");
     }
     if(grade=='D'){
-        ptintf("Below Average");
+        printf("Below Average");
     }
     if(grade=='F'){
-        ptintf("Fail");
+        printf("Fail");
     }
     
     return 0;

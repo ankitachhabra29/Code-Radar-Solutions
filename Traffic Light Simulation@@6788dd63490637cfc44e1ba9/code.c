@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+
+int main() {
+    char signal;
+    scanf("%c",&signal);
+
+    if(signal=='R'){
+        printf("Stop");
+    }
+    else if(signal=='G'){
+        printf("Go");
+    }
+    else if(signal=='Y'){
+        printf("Slow Down");
+    }
+
+    
+
+
+
+
+
+
+    return 0;
+}

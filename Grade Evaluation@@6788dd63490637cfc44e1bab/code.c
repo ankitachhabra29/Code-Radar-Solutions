@@ -8,16 +8,16 @@ int main() {
     if(grade=='A'){
         printf("Excellent");
     }
-    if(grade=='B'){
+    else if(grade=='B'){
         printf("Good");
     }
-    if(grade=='C'){
+     else if(grade=='C'){
         printf("Average");
     }
-    if(grade=='D'){
+    else if(grade=='D'){
         printf("Below Average");
     }
-    if(grade=='F'){
+    else if(grade=='F'){
         printf("Fail");
     }
     

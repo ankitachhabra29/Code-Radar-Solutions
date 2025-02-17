@@ -9,24 +9,24 @@ int main() {
     
     int num1,num2;
     char calculator;
-    scanf("%d %d %c",&num1,&num2,&calculator);
+    scanf("%d%d%c",&num1,&num2,&calculator);
     int sum=(num1+num2);
     int sub=(num1-num2);
     int multi=(num1*num2);
 
     switch(calculator){
         case '+':
-        printf("%d\n",sum);
+        printf("%d",sum);
         break;
 
         case '-':
         
-        printf("%d\n",sub);
+        printf("%d",sub);
         break;
 
         case '*':
        
-        printf("%d\n",multi);
+        printf("%d",multi);
         break;
 
         case '/':
@@ -38,8 +38,9 @@ int main() {
                 int div=(a/b);
                 printf("%d",div);
             
-            break;
+            
             }
+            break;
 
         default :
            printf("error");

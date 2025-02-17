@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-   int num ,i,is_prime=1;
+   int num,i,is_prime=1;
    scanf("%d",&num);
     
    if(num<=1){
@@ -12,14 +12,16 @@ int main() {
     if(num%i==0){
         is_prime=0;
         break;
-    }
+      }
     }
     if(is_prime){
         printf("Prime");
+    }
 
     else{
-        printf("Not Prime");    }
-    }
+        printf("Not Prime");   
+         }
+    
     
     
     }

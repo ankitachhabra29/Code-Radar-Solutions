@@ -17,7 +17,7 @@ int main() {
         printf("%d\n",result);
         break;
 
-         case '-':
+        case '-':
         result=num1-num2;
         printf("%d\n",result);
         break;
@@ -28,8 +28,8 @@ int main() {
         break;
 
         case '/':
-         if(num2!=0){
-            result=num1/num2;
+         if(num2 != 0){
+            result= num1/num2;
             printf("%d\n",result);
             }
             else{
@@ -37,9 +37,7 @@ int main() {
             }
             break;
 
-        default :
-        printf("Error");
-        
+       
         
        
 

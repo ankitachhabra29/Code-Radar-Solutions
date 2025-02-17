@@ -13,7 +13,7 @@ int main() {
 
     switch(calculator){
         case '+':
-        result=num1+num2;
+        result = num1 + num2;
         printf("%d",result);
         break;
 

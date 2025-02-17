@@ -30,11 +30,15 @@ int main() {
         case '/':
          if(num2!=0){
             result=num1/num2;
-            printf("%d",result);}
+            printf("%d",result);
+            }
             else{
                 printf("Error");
             }
             break;
+
+        default :
+        printf("Error");
         
         
        

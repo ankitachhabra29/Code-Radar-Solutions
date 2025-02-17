@@ -15,21 +15,21 @@ int main() {
     int multi=(num1*num2);
 
     switch(c){
-        case '+':
+        case'+':
         printf("%d",sum);
         break;
 
-        case '-':
+        case'-':
         
         printf("%d",sub);
         break;
 
-        case '*':
+        case'*':
        
         printf("%d",multi);
         break;
 
-        case '/':
+        case'/':
          if((num2== 0)){
             
             printf("error");

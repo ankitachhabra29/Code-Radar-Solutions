@@ -12,9 +12,7 @@ int main() {
     if(num%i==0){
         printf("Not Prime");
     }
-    else{
-        printf("Prime");
+    
     }
    }
     
-}

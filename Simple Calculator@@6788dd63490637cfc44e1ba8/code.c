@@ -8,13 +8,13 @@ int main() {
      
     
     int num1,num2;
-    char calculator;
+    char c;
     scanf("%d%d%c",&num1,&num2,&calculator);
     int sum=(num1+num2);
     int sub=(num1-num2);
     int multi=(num1*num2);
 
-    switch(calculator){
+    switch(c){
         case '+':
         printf("%d",sum);
         break;

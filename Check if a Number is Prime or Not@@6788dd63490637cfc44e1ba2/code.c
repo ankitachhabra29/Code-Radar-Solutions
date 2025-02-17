@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 int main() {
-   int num,i,is_prime=1;
+   int num,i;
    scanf("%d",&num);
     
    if(num<=1){
-    is_prime=0;
+    printf("Prime");
 
    }
    for(i=2;i<num;i++){
        if(num%i==0){
-          is_prime=0;
-          break;
+          printf("Not Prime");
+          
        }
     }
-    if(is_prime){
-        printf("Prime");
+    if(num%i==0){
+        printf("Not Prime");
     }
 
     else{
-        printf("Not Prime");   
+        printf("Prime");   
          }
     
     

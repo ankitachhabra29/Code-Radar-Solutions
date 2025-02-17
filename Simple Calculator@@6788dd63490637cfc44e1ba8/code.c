@@ -7,39 +7,42 @@
 int main() {
      
     
-    float num1,num2,result;
+    int num1,num2;
     char calculator;
-    scanf("%f %f",&num1,&num2);
-    scanf("%c",&calculator);
+    scanf("%d %d %c",&num1,&num2,&calculator);
+    int sum=(num1+num2);
+    int sub=(num1-num2);
+    int multi=(num1*num2);
 
     switch(calculator){
         case '+':
-        result = num1 + num2;
-        printf("%f\n",result);
+        printf("%d\n",sum);
         break;
 
         case '-':
-        result=num1-num2;
-        printf("%f\n",result);
+        
+        printf("%d\n",sub);
         break;
 
         case '*':
-        result=num1*num2;
-        printf("%f\n",result);
+       
+        printf("%d\n",multi);
         break;
 
         case '/':
-         if(num2 != 0){
-            result= num1/num2;
-            printf("%f\n",result);
+         if(num2== 0){
+            
+            printf("error");
             }
             else{
-                printf("Error");
-            }
+                int div=(a/b);
+                printf("%d",div);
+            
             break;
+            }
 
         default :
-           printf("Error");
+           printf("error");
         
         
        

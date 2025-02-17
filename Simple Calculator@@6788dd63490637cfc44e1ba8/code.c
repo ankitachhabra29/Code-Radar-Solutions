@@ -7,8 +7,8 @@ int main() {
      
     
     int num1,num2,result;
-    scanf("%d%d",&num1,&num2);
     char calculator;
+    scanf("%d %d",&num1,&num2);
     scanf("%c",&calculator);
 
     switch(calculator){

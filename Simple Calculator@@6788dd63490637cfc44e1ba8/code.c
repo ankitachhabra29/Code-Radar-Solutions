@@ -30,12 +30,12 @@ int main() {
         break;
 
         case '/':
-         if(num2== 0){
+         if((num2== 0)){
             
             printf("error");
             }
             else{
-                int div=(a/b);
+                int div=(num1/num2);
                 printf("%d",div);
             
             

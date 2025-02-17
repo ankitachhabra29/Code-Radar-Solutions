@@ -5,34 +5,35 @@
 
 int main() {
      
-    char calculator;
-    scanf("%c",&calculator);
+    
     int num1,num2;
     scanf("%d%d",&num1,&num2);
+    char calculator;
+    scanf("%c",&calculator);
 
     switch(calculator){
         case '+':
-        result1=num1+num2;
-        printf("%d",result1);
+        result=num1+num2;
+        printf("%d",result);
 
          case '-':
-        result2=num1-num2;
-        printf("%d",result2);
+        result=num1-num2;
+        printf("%d",result);
 
         case '*':
-        result3=num1*num2;
-        printf("%d",result3);
+        result=num1*num2;
+        printf("%d",result);
 
         case '/':
          if(num2!=0){
-            result4=num1/num2;
-            printf("%d",result4);}
+            result=num1/num2;
+            printf("%d",result);}
             else{
                 printf("")
             }
         
-        default:
-        printf()
+        
+       
 
         
         

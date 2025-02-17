@@ -42,7 +42,7 @@ int main() {
             }
             break;
 
-        default :
+        default:
            printf("error");
         
         

@@ -9,7 +9,7 @@ int main() {
     
     int num1,num2;
     char c;
-    scanf("%d%d%c",&num1,&num2,&calculator);
+    scanf("%d%d%c",&num1,&num2,&c);
     int sum=(num1+num2);
     int sub=(num1-num2);
     int multi=(num1*num2);

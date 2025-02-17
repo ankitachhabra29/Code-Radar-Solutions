@@ -14,23 +14,23 @@ int main() {
     switch(calculator){
         case '+':
         result = num1 + num2;
-        printf("%d",result);
+        printf("%d\n",result);
         break;
 
          case '-':
         result=num1-num2;
-        printf("%d",result);
+        printf("%d\n",result);
         break;
 
         case '*':
         result=num1*num2;
-        printf("%d",result);
+        printf("%d\n",result);
         break;
 
         case '/':
          if(num2!=0){
             result=num1/num2;
-            printf("%d",result);
+            printf("%d\n",result);
             }
             else{
                 printf("Error");

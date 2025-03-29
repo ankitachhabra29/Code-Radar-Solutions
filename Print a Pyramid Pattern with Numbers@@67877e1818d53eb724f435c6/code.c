@@ -7,9 +7,9 @@ int main(){
             printf(" ");
         }
         for(int k=1;k<=2*i-1;k++){
-            if(k==n+1){
+            if(k==n+1)
                 break;
-            }
+            
            
             printf("%d ",k); 
         }
